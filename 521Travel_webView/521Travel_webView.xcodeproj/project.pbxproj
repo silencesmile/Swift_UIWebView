@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81ED68641DD57868008B27FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED68631DD57868008B27FC /* AppDelegate.swift */; };
+		81ED68661DD57868008B27FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED68651DD57868008B27FC /* ViewController.swift */; };
+		81ED68691DD57868008B27FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68671DD57868008B27FC /* Main.storyboard */; };
+		81ED686B1DD57868008B27FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ED686A1DD57868008B27FC /* Assets.xcassets */; };
+		81ED686E1DD57868008B27FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ED686C1DD57868008B27FC /* LaunchScreen.storyboard */; };
+		81ED68791DD57868008B27FC /* _21Travel_webViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED68781DD57868008B27FC /* _21Travel_webViewTests.swift */; };
+		81ED68841DD57868008B27FC /* _21Travel_webViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED68831DD57868008B27FC /* _21Travel_webViewUITests.swift */; };
+		81ED68921DD5788B008B27FC /* Swift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68911DD5788B008B27FC /* Swift.pdf */; };
+		81ED68A71DD578A8008B27FC /* bottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68941DD578A8008B27FC /* bottom.jpg */; };
+		81ED68A81DD578A8008B27FC /* bottom_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68951DD578A8008B27FC /* bottom_bg.jpg */; };
+		81ED68A91DD578A8008B27FC /* checkId.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68961DD578A8008B27FC /* checkId.png */; };
+		81ED68AA1DD578A8008B27FC /* content.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68971DD578A8008B27FC /* content.jpg */; };
+		81ED68AB1DD578A8008B27FC /* final_task.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68981DD578A8008B27FC /* final_task.png */; };
+		81ED68AC1DD578A8008B27FC /* hm.js in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68991DD578A8008B27FC /* hm.js */; };
+		81ED68AD1DD578A8008B27FC /* Home_newUser.html in Resources */ = {isa = PBXBuildFile; fileRef = 81ED689A1DD578A8008B27FC /* Home_newUser.html */; };
+		81ED68AE1DD578A8008B27FC /* jquery-1.9.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 81ED689B1DD578A8008B27FC /* jquery-1.9.1.min.js */; };
+		81ED68AF1DD578A8008B27FC /* jquery.mobile-1.3.2.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 81ED689C1DD578A8008B27FC /* jquery.mobile-1.3.2.min.css */; };
+		81ED68B01DD578A8008B27FC /* jquery.mobile-1.3.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 81ED689D1DD578A8008B27FC /* jquery.mobile-1.3.2.min.js */; };
+		81ED68B11DD578A8008B27FC /* new.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ED689E1DD578A8008B27FC /* new.jpg */; };
+		81ED68B21DD578A8008B27FC /* newGuide.css in Resources */ = {isa = PBXBuildFile; fileRef = 81ED689F1DD578A8008B27FC /* newGuide.css */; };
+		81ED68B31DD578A8008B27FC /* public.css in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68A01DD578A8008B27FC /* public.css */; };
+		81ED68B41DD578A8008B27FC /* reg_award.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68A11DD578A8008B27FC /* reg_award.png */; };
+		81ED68B51DD578A8008B27FC /* rule1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68A21DD578A8008B27FC /* rule1.jpg */; };
+		81ED68B61DD578A8008B27FC /* rule2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68A31DD578A8008B27FC /* rule2.jpg */; };
+		81ED68B71DD578A8008B27FC /* rule3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68A41DD578A8008B27FC /* rule3.jpg */; };
+		81ED68B81DD578A8008B27FC /* top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68A51DD578A8008B27FC /* top.jpg */; };
+		81ED68B91DD578A8008B27FC /* try_invest.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ED68A61DD578A8008B27FC /* try_invest.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81ED68751DD57868008B27FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ED68581DD57868008B27FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ED685F1DD57868008B27FC;
+			remoteInfo = 521Travel_webView;
+		};
+		81ED68801DD57868008B27FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ED68581DD57868008B27FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ED685F1DD57868008B27FC;
+			remoteInfo = 521Travel_webView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81ED68601DD57868008B27FC /* 521Travel_webView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 521Travel_webView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED68631DD57868008B27FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81ED68651DD57868008B27FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81ED68681DD57868008B27FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81ED686A1DD57868008B27FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81ED686D1DD57868008B27FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81ED686F1DD57868008B27FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ED68741DD57868008B27FC /* 521Travel_webViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 521Travel_webViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED68781DD57868008B27FC /* _21Travel_webViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _21Travel_webViewTests.swift; sourceTree = "<group>"; };
+		81ED687A1DD57868008B27FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ED687F1DD57868008B27FC /* 521Travel_webViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 521Travel_webViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED68831DD57868008B27FC /* _21Travel_webViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _21Travel_webViewUITests.swift; sourceTree = "<group>"; };
+		81ED68851DD57868008B27FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ED68911DD5788B008B27FC /* Swift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Swift.pdf; sourceTree = "<group>"; };
+		81ED68941DD578A8008B27FC /* bottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottom.jpg; sourceTree = "<group>"; };
+		81ED68951DD578A8008B27FC /* bottom_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottom_bg.jpg; sourceTree = "<group>"; };
+		81ED68961DD578A8008B27FC /* checkId.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkId.png; sourceTree = "<group>"; };
+		81ED68971DD578A8008B27FC /* content.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = content.jpg; sourceTree = "<group>"; };
+		81ED68981DD578A8008B27FC /* final_task.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = final_task.png; sourceTree = "<group>"; };
+		81ED68991DD578A8008B27FC /* hm.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hm.js; sourceTree = "<group>"; };
+		81ED689A1DD578A8008B27FC /* Home_newUser.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Home_newUser.html; sourceTree = "<group>"; };
+		81ED689B1DD578A8008B27FC /* jquery-1.9.1.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.9.1.min.js"; sourceTree = "<group>"; };
+		81ED689C1DD578A8008B27FC /* jquery.mobile-1.3.2.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "jquery.mobile-1.3.2.min.css"; sourceTree = "<group>"; };
+		81ED689D1DD578A8008B27FC /* jquery.mobile-1.3.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery.mobile-1.3.2.min.js"; sourceTree = "<group>"; };
+		81ED689E1DD578A8008B27FC /* new.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new.jpg; sourceTree = "<group>"; };
+		81ED689F1DD578A8008B27FC /* newGuide.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = newGuide.css; sourceTree = "<group>"; };
+		81ED68A01DD578A8008B27FC /* public.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = public.css; sourceTree = "<group>"; };
+		81ED68A11DD578A8008B27FC /* reg_award.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reg_award.png; sourceTree = "<group>"; };
+		81ED68A21DD578A8008B27FC /* rule1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rule1.jpg; sourceTree = "<group>"; };
+		81ED68A31DD578A8008B27FC /* rule2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rule2.jpg; sourceTree = "<group>"; };
+		81ED68A41DD578A8008B27FC /* rule3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rule3.jpg; sourceTree = "<group>"; };
+		81ED68A51DD578A8008B27FC /* top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = top.jpg; sourceTree = "<group>"; };
+		81ED68A61DD578A8008B27FC /* try_invest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = try_invest.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81ED685D1DD57868008B27FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED68711DD57868008B27FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED687C1DD57868008B27FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81ED68571DD57868008B27FC = {
+			isa = PBXGroup;
+			children = (
+				81ED68621DD57868008B27FC /* 521Travel_webView */,
+				81ED68771DD57868008B27FC /* 521Travel_webViewTests */,
+				81ED68821DD57868008B27FC /* 521Travel_webViewUITests */,
+				81ED68611DD57868008B27FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81ED68611DD57868008B27FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81ED68601DD57868008B27FC /* 521Travel_webView.app */,
+				81ED68741DD57868008B27FC /* 521Travel_webViewTests.xctest */,
+				81ED687F1DD57868008B27FC /* 521Travel_webViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81ED68621DD57868008B27FC /* 521Travel_webView */ = {
+			isa = PBXGroup;
+			children = (
+				81ED68631DD57868008B27FC /* AppDelegate.swift */,
+				81ED68651DD57868008B27FC /* ViewController.swift */,
+				81ED68671DD57868008B27FC /* Main.storyboard */,
+				81ED68911DD5788B008B27FC /* Swift.pdf */,
+				81ED68931DD578A8008B27FC /* Home_newUser(本地HTML) */,
+				81ED686A1DD57868008B27FC /* Assets.xcassets */,
+				81ED686C1DD57868008B27FC /* LaunchScreen.storyboard */,
+				81ED686F1DD57868008B27FC /* Info.plist */,
+			);
+			path = 521Travel_webView;
+			sourceTree = "<group>";
+		};
+		81ED68771DD57868008B27FC /* 521Travel_webViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				81ED68781DD57868008B27FC /* _21Travel_webViewTests.swift */,
+				81ED687A1DD57868008B27FC /* Info.plist */,
+			);
+			path = 521Travel_webViewTests;
+			sourceTree = "<group>";
+		};
+		81ED68821DD57868008B27FC /* 521Travel_webViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81ED68831DD57868008B27FC /* _21Travel_webViewUITests.swift */,
+				81ED68851DD57868008B27FC /* Info.plist */,
+			);
+			path = 521Travel_webViewUITests;
+			sourceTree = "<group>";
+		};
+		81ED68931DD578A8008B27FC /* Home_newUser(本地HTML) */ = {
+			isa = PBXGroup;
+			children = (
+				81ED68941DD578A8008B27FC /* bottom.jpg */,
+				81ED68951DD578A8008B27FC /* bottom_bg.jpg */,
+				81ED68961DD578A8008B27FC /* checkId.png */,
+				81ED68971DD578A8008B27FC /* content.jpg */,
+				81ED68981DD578A8008B27FC /* final_task.png */,
+				81ED68991DD578A8008B27FC /* hm.js */,
+				81ED689A1DD578A8008B27FC /* Home_newUser.html */,
+				81ED689B1DD578A8008B27FC /* jquery-1.9.1.min.js */,
+				81ED689C1DD578A8008B27FC /* jquery.mobile-1.3.2.min.css */,
+				81ED689D1DD578A8008B27FC /* jquery.mobile-1.3.2.min.js */,
+				81ED689E1DD578A8008B27FC /* new.jpg */,
+				81ED689F1DD578A8008B27FC /* newGuide.css */,
+				81ED68A01DD578A8008B27FC /* public.css */,
+				81ED68A11DD578A8008B27FC /* reg_award.png */,
+				81ED68A21DD578A8008B27FC /* rule1.jpg */,
+				81ED68A31DD578A8008B27FC /* rule2.jpg */,
+				81ED68A41DD578A8008B27FC /* rule3.jpg */,
+				81ED68A51DD578A8008B27FC /* top.jpg */,
+				81ED68A61DD578A8008B27FC /* try_invest.png */,
+			);
+			path = "Home_newUser(本地HTML)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81ED685F1DD57868008B27FC /* 521Travel_webView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED68881DD57868008B27FC /* Build configuration list for PBXNativeTarget "521Travel_webView" */;
+			buildPhases = (
+				81ED685C1DD57868008B27FC /* Sources */,
+				81ED685D1DD57868008B27FC /* Frameworks */,
+				81ED685E1DD57868008B27FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 521Travel_webView;
+			productName = 521Travel_webView;
+			productReference = 81ED68601DD57868008B27FC /* 521Travel_webView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81ED68731DD57868008B27FC /* 521Travel_webViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED688B1DD57868008B27FC /* Build configuration list for PBXNativeTarget "521Travel_webViewTests" */;
+			buildPhases = (
+				81ED68701DD57868008B27FC /* Sources */,
+				81ED68711DD57868008B27FC /* Frameworks */,
+				81ED68721DD57868008B27FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ED68761DD57868008B27FC /* PBXTargetDependency */,
+			);
+			name = 521Travel_webViewTests;
+			productName = 521Travel_webViewTests;
+			productReference = 81ED68741DD57868008B27FC /* 521Travel_webViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81ED687E1DD57868008B27FC /* 521Travel_webViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED688E1DD57868008B27FC /* Build configuration list for PBXNativeTarget "521Travel_webViewUITests" */;
+			buildPhases = (
+				81ED687B1DD57868008B27FC /* Sources */,
+				81ED687C1DD57868008B27FC /* Frameworks */,
+				81ED687D1DD57868008B27FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ED68811DD57868008B27FC /* PBXTargetDependency */,
+			);
+			name = 521Travel_webViewUITests;
+			productName = 521Travel_webViewUITests;
+			productReference = 81ED687F1DD57868008B27FC /* 521Travel_webViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81ED68581DD57868008B27FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = 521Travel;
+				TargetAttributes = {
+					81ED685F1DD57868008B27FC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+					};
+					81ED68731DD57868008B27FC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81ED685F1DD57868008B27FC;
+					};
+					81ED687E1DD57868008B27FC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = K9UVDYE39X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81ED685F1DD57868008B27FC;
+					};
+				};
+			};
+			buildConfigurationList = 81ED685B1DD57868008B27FC /* Build configuration list for PBXProject "521Travel_webView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81ED68571DD57868008B27FC;
+			productRefGroup = 81ED68611DD57868008B27FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81ED685F1DD57868008B27FC /* 521Travel_webView */,
+				81ED68731DD57868008B27FC /* 521Travel_webViewTests */,
+				81ED687E1DD57868008B27FC /* 521Travel_webViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81ED685E1DD57868008B27FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED68B11DD578A8008B27FC /* new.jpg in Resources */,
+				81ED686E1DD57868008B27FC /* LaunchScreen.storyboard in Resources */,
+				81ED68B61DD578A8008B27FC /* rule2.jpg in Resources */,
+				81ED68AD1DD578A8008B27FC /* Home_newUser.html in Resources */,
+				81ED68AC1DD578A8008B27FC /* hm.js in Resources */,
+				81ED686B1DD57868008B27FC /* Assets.xcassets in Resources */,
+				81ED68B31DD578A8008B27FC /* public.css in Resources */,
+				81ED68AF1DD578A8008B27FC /* jquery.mobile-1.3.2.min.css in Resources */,
+				81ED68AE1DD578A8008B27FC /* jquery-1.9.1.min.js in Resources */,
+				81ED68B01DD578A8008B27FC /* jquery.mobile-1.3.2.min.js in Resources */,
+				81ED68B51DD578A8008B27FC /* rule1.jpg in Resources */,
+				81ED68B81DD578A8008B27FC /* top.jpg in Resources */,
+				81ED68921DD5788B008B27FC /* Swift.pdf in Resources */,
+				81ED68B71DD578A8008B27FC /* rule3.jpg in Resources */,
+				81ED68A81DD578A8008B27FC /* bottom_bg.jpg in Resources */,
+				81ED68A91DD578A8008B27FC /* checkId.png in Resources */,
+				81ED68B21DD578A8008B27FC /* newGuide.css in Resources */,
+				81ED68AA1DD578A8008B27FC /* content.jpg in Resources */,
+				81ED68AB1DD578A8008B27FC /* final_task.png in Resources */,
+				81ED68691DD57868008B27FC /* Main.storyboard in Resources */,
+				81ED68B41DD578A8008B27FC /* reg_award.png in Resources */,
+				81ED68B91DD578A8008B27FC /* try_invest.png in Resources */,
+				81ED68A71DD578A8008B27FC /* bottom.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED68721DD57868008B27FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED687D1DD57868008B27FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81ED685C1DD57868008B27FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED68661DD57868008B27FC /* ViewController.swift in Sources */,
+				81ED68641DD57868008B27FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED68701DD57868008B27FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED68791DD57868008B27FC /* _21Travel_webViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED687B1DD57868008B27FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED68841DD57868008B27FC /* _21Travel_webViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81ED68761DD57868008B27FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ED685F1DD57868008B27FC /* 521Travel_webView */;
+			targetProxy = 81ED68751DD57868008B27FC /* PBXContainerItemProxy */;
+		};
+		81ED68811DD57868008B27FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ED685F1DD57868008B27FC /* 521Travel_webView */;
+			targetProxy = 81ED68801DD57868008B27FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81ED68671DD57868008B27FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ED68681DD57868008B27FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81ED686C1DD57868008B27FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ED686D1DD57868008B27FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81ED68861DD57868008B27FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81ED68871DD57868008B27FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81ED68891DD57868008B27FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_webView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-webView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		81ED688A1DD57868008B27FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_webView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-webView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		81ED688C1DD57868008B27FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_webViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-webViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/521Travel_webView.app/521Travel_webView";
+			};
+			name = Debug;
+		};
+		81ED688D1DD57868008B27FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_webViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-webViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/521Travel_webView.app/521Travel_webView";
+			};
+			name = Release;
+		};
+		81ED688F1DD57868008B27FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_webViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-webViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = 521Travel_webView;
+			};
+			name = Debug;
+		};
+		81ED68901DD57868008B27FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = K9UVDYE39X;
+				INFOPLIST_FILE = 521Travel_webViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panda.-21Travel-webViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = 521Travel_webView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81ED685B1DD57868008B27FC /* Build configuration list for PBXProject "521Travel_webView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED68861DD57868008B27FC /* Debug */,
+				81ED68871DD57868008B27FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ED68881DD57868008B27FC /* Build configuration list for PBXNativeTarget "521Travel_webView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED68891DD57868008B27FC /* Debug */,
+				81ED688A1DD57868008B27FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81ED688B1DD57868008B27FC /* Build configuration list for PBXNativeTarget "521Travel_webViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED688C1DD57868008B27FC /* Debug */,
+				81ED688D1DD57868008B27FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81ED688E1DD57868008B27FC /* Build configuration list for PBXNativeTarget "521Travel_webViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED688F1DD57868008B27FC /* Debug */,
+				81ED68901DD57868008B27FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81ED68581DD57868008B27FC /* Project object */;
+}

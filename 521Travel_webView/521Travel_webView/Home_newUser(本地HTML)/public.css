@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2015-04-01 10:21:35
+ * @version $Id$
+ */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend{
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust:none;
+}
+html,body{
+	height: 100%; 
+	width: 100%; 
+	background: #f9f9f9;
+}
+ul li{list-style:none;}
+a,button,input{-webkit-tap-highlight-color:rgba(255,0,0,0);}
+/* 使得图片居中 webkit-box */
+a{text-decoration: none;}
+img{display: block;width:100%;}
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: " ";
+}
+.clearfix:after {
+	clear: both;
+}
+/*header*/
+#logo{
+	width: 100%;
+	background: #0b6292;
+	position: relative;
+}
+#logo-img{
+	width: 31.25%;
+	padding:10px;
+	float: left;
+}
+.ui-header{
+	border: 0;
+}
+#logo-title{
+	width: 190px;
+	height: 24px;
+	font-size: 12px;
+	color: #f9f9f9;
+	position: absolute;
+	top: 50%;
+	margin-top:-12px;
+	right: 10px;
+	line-height: 24px;
+	text-align: right; 
+	text-shadow: none;
+}
+/*footer*/
+.footer{
+	border: 0;
+}
+.ui-link a{
+	background: #ffffff;
+	color:#cccccc;
+	border:0;
+	text-shadow: none; 
+	font-weight: lighter;
+}
+.index_img,.case_img,.find_img,.my_img{
+	display: block;
+	width: 22px;
+	height: 24px;
+	margin:  0 auto;
+	background: url(/assets/img/mobile/index/user/userIcon.png);
+	background-size: 110px auto;
+}
+.ui-btn-inner{
+	border: 0;
+}
+.index_img{
+	background-position: -2px 0;
+}
+.index_img:hover{
+	background-position: -2px 27px;
+}
+.case_img{
+	background-position: -29px 0;
+}
+.case_img:hover{
+	background-position: -29px 27px;
+}
+.find_img{
+	background-position: -58px 0;
+}
+.find_img:hover{
+	background-position: -58px 27px;
+}
+.my_img{
+	background-position: -83px 0;    
+}
+.my_img:hover{
+	background-position: -83px 27px;    
+}
+/*外层a标签*/
+.projects_link{
+	display: block;
+}
+/*重置jq mobile的footer里导航的样式*/
+ .ui-btn-active a.ui-link-inherit,.ui-btn-inner,.ui-btn-up-a a.ui-link-inherit,.ui-btn-active:visited,.ui-btn-up-a:visited,.ui-btn-up-a:active{
+	color: #cccccc;
+}
+ .ui-btn-active:hover,.ui-btn-hover-a:hover{
+
+}
+
+.ui-focus, .ui-btn:focus{
+	-webkit-box-shadow: none;
+}
+/*项目图片展示*/
+.projects_address{
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+}
+.projects_con{
+	position: absolute;
+	z-index: 2;
+	display: block;
+}
+.projects_imgshow_bg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+	background: #6b6049;
+	opacity: 0.7;
+}
+.projects_imgshow_name{
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 4;
+	line-height: 30px;
+	font-size: 14px;
+	color: #fefefe;
+	text-shadow: none;
+}
+.projects_address_wh{
+	width: 100%;
+	height: 30px;
+}
+.projects_add_word{
+	text-align: left;
+	font-style: normal;
+	padding: 0 0 0 5px;
+}
+.font_size_12{
+	font-size:12px;
+}
+.font_size_14{
+	font-size:14px;
+}
+.font_size_28{
+	font-size: 28px;
+}
+/*重置user.css里   .parts a p, span样式*/
+.ui-btn-text{
+	color: #888888;
+}
+
+.header{
+	border:none;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: Microsoft Yahei;
+	color: #fff;
+	background: #cb1f25;
+	text-shadow: none;
+}
+.reback {
+  font-size: 14px;
+  background: url(/assets/img/mobile/user/reback.png) no-repeat center left;
+  padding-left: 14px;
+  position: fixed;
+  left: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+.abttitle{
+	width:100%;
+	text-align: center;
+}
+
+.navlist{width:100%;background:#fff;height:40px;line-height:40px;padding:0 2%}
+.navlist li{width:32%;float:left;text-align:center;font-family:Microsoft YaHei;font-size:14px;}
+.navlist li.active{border-bottom:3px solid #e26971;}
+.mt20{margin-top:20px;}
